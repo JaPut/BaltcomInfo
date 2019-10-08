@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-</head>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="js/myScript.js" defer></script>
+    </head>
 <body>
-    
+  <header class="header">
+    <h1>Responsive webpage for Fizzbuzz solution control</h1>
+  </header>
+  <div class="column" style="background-color:#aaa;">
+    <h2>Essential</h2>
+    <p>Homework No.3 solution</p>
+    <button class="btn" onclick="theBeginning()">FizzBuzz element (1-100) generator</button>
+    <p>Generated elements remover</p>
+    <button class="btn" onclick="removeElement()">removeElements</button>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Variable</h2>
+    <p id="numb">Properties finder for specific value</p>
+    <p>insert number(0-100):<input id="myInput" type="number" size="2"></p>
+    <p><span style="color:red">Important:</span>strictly not allowed input values output 1-100 range</p>
+    <button class="btn" onclick="divWillBeBorn(); reset();">Check el No.</button>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Select</h2>
+    <p>Buzz elements generator</p>
+    <button class="btn" onclick="onlyBuzz()">Only Buzz</button>
+    <p>Fizz elements generator</p>
+    <button class="btn" onclick="onlyFizz()">Only Fizz</button>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+    <h2>Alternatives</h2>
+    <p>unique tool even numbers Fizzbuzz checker by buttons clicking </p>
+    <p id="varValue">Test number</p>
+    <input type="button" value="+" id="add" class="buttons button1" onclick="plusOne(); sayMyProperty();">
+    <input type="button" value="-" id="desc" class = "buttons button1" onclick="minusOne(); sayMyProperty();">
+    <p id="controlValue">Result</p>
+     </div>
+  <main>
+    <div id="main" class="demo"></div>
+  </main>
+  <footer><p>If something doesn't work, move over me: <input type="button" value = "Refresh" onmousemove="history.go(0)" /> Developed by JP © JP 2019</p></footer>
 </body>
 </html>
