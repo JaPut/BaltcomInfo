@@ -16,7 +16,7 @@ header {
   float: left;
   width: 25%;
   padding: 1px;
-  height: 300px;
+  height: 320px;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -121,7 +121,7 @@ font-style: inherit;
   font-size: 63px;
   background-color: rgb(214, 218, 212);
   padding: 1px;
-  min-height: 250px;
+  min-height: 200px;
   text-align: center;
   font-size: 85px;
   color: rgb(54, 88, 238);
@@ -131,6 +131,14 @@ font-style: inherit;
   text-align: center;
   padding-top: 10px;
   background-image: url(../img/resultsarea.png);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
 }
 footer {
   background-color: rgb(238, 237, 237) 
